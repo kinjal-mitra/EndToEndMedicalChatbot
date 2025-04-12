@@ -12,7 +12,7 @@ list_of_files=[
     ".env",
     "setup.py",
     "app.py",
-    "research/trial.ipynb"
+    "research/trials.ipynb"
 ]
 
 

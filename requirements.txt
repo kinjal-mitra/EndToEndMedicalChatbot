@@ -8,4 +8,5 @@ langchain-pinecone
 langchain_community
 langchain_anthropic
 langchain_experimental
+langchain_huggingface
 -e .
