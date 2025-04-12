@@ -10,7 +10,21 @@ An end-to-end AI-powered medical chatbot designed to assist users with health-re
 - **Modular Architecture** – Clean codebase for easy development and scalability.
 
 ## Project Structure
-EndToEndMedicalChatbot/ ├── Data/ # Datasets used for training and evaluation ├── medvenv/ # Python virtual environment (optional) ├── research/ # Notebooks and exploratory analysis ├── src/ # Core source code for the chatbot ├── static/ # Static files (CSS, JS, images) ├── templates/ # HTML templates for the web interface ├── app.py # Main application script ├── index_store.py # Indexing and data retrieval ├── requirements.txt # Python dependencies ├── setup.py # Packaging setup ├── template.py # Utility/template configurations ├── .gitignore # Git ignore rules ├── LICENSE # MIT License └── README.md # Project documentation
+EndToEndMedicalChatbot/ 
+├── Data/ # Datasets used for training and evaluation 
+├── medvenv/ # Python virtual environment (optional) 
+├── research/ # Notebooks and exploratory analysis 
+├── src/ # Core source code for the chatbot 
+├── static/ # Static files (CSS, JS, images) 
+├── templates/ # HTML templates for the web interface 
+├── app.py # Main application script 
+├── index_store.py # Indexing and data retrieval 
+├── requirements.txt # Python dependencies 
+├── setup.py # Packaging setup 
+├── template.py # Utility/template configurations 
+├── .gitignore # Git ignore rules 
+├── LICENSE # MIT License 
+└── README.md # Project documentation
 
 
 ## Getting Started
@@ -27,32 +41,35 @@ EndToEndMedicalChatbot/ ├── Data/ # Datasets used for training and evaluat
 ```bash
 git clone https://github.com/kinjal-mitra/EndToEndMedicalChatbot.git
 cd EndToEndMedicalChatbot
+```
+
 
 2. (Optional) Create and activate a virtual environment:
+```
 python -m venv medvenv
 source medvenv/bin/activate  # On Windows: medvenv\Scripts\activate
-
+```
 
 3. Install dependencies:
-
+```
 pip install -r requirements.txt
-
+```
 
 
 Running the Application
-
+```
 python app.py
-
+```
 
 The application will be accessible at http://localhost:8080/ by default.
 Usage
-
+```
     Open a web browser and go to http://localhost:8080/.
 
     Type in your medical query in the chat window.
 
     Receive responses powered by the underlying NLP models and dataset.
-
+```
 Contributing
 
 Contributions are welcome! Here's how you can help:
